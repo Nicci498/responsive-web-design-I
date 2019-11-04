@@ -8,7 +8,7 @@
 
 /* Nav */
 
-header nav{
+header .nav{
 	display:flex;
 	justify-content:space-between;
 }
@@ -23,7 +23,7 @@ header nav a{
 /* Main */
 
 header h1{
-	font-size:80px;
+	font-size:450%;
 	text-align:center;
 }
 
@@ -92,7 +92,7 @@ hr{
 }
 
 .contact address{
-	line-height: 2;
+    line-height: 2;
 }
 
 /* Copyright*/
@@ -102,3 +102,42 @@ footer{
 	margin:5%;
 }
 
+@media (max-width:800px){
+ 
+.logo{
+    width:40%;
+    margin:2% 30%;
+}
+header .nav{
+flex-direction:column-reverse;
+align-content: center;
+justify-content: center;
+margin:1%;
+}
+
+header nav a{
+    margin: 4%;
+}
+
+.right-header{
+    display: none;
+}
+
+
+header h1{
+    font-size:350%;
+    margin: 1%;
+}
+
+button{
+    margin-top:2%
+}
+
+}
+
+@media (max-width: 500px){
+
+
+
+    
+}
