@@ -137,7 +137,37 @@ button{
 
 @media (max-width: 500px){
 
-
-
+header nav{
+    flex-direction: column;
+    display:flex;
     
+}
+
+header nav a{
+flex-direction:column;
+border-bottom: 1px solid black;
+color:darkgray;
+text-align: center;
+padding: 2%;
+font-size: 1.5rem;
+}
+
+.in-half, .in-thirds{
+flex-direction: column;
+}
+
+.in-half .first-half, .in-half .second-half, .in-thirds .left-third, .in-thirds .middle-third, .in-thirds .right-third{
+    width: 100%;
+}
+
+.first-half, .second-half, .left-third, .middle-third, .right-third{
+display: flex;
+flex-direction: column;
+}
+
+button{
+    margin-top:8%;
+    margin-bottom: 8%;
+}
+
 }
