@@ -102,6 +102,68 @@ footer{
 	margin:5%;
 }
 
+
+
+.top-image{
+	display:flex;
+	justify-content:center;
+	margin:2%;
+}
+
+.svc{
+	display:flex;
+	flex-direction:column;
+	align-content: flex-start;
+	margin:2%;
+}
+
+.svc h1{
+	font-size:30px;
+}
+/* Boxes*/
+.service-content{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.box{
+	width: 43%;
+	background-color: rgb(233, 231, 231);
+	margin:2%;
+	border: 1px solid black;
+	
+}
+
+.box p, .box h2, .box button{
+	margin:4%;
+}
+
+.button{
+	border-radius: 10%;
+	width: 25%;
+	border: 1px solid black;
+	padding: 1%;
+}
+/* Cool stuff*/
+.facts{
+	display:flex;
+	justify-content:space-around;
+}
+
+.facts .facts-left{
+	width: 45%;
+	margin:2%
+}
+.facts .facts-left ul{
+	list-style-type: square;
+	line-height:2;
+	font-weight: bold;
+}
+
+
+
 @media (max-width:800px){
  
 .logo{
@@ -114,6 +176,7 @@ align-content: center;
 justify-content: center;
 margin:1%;
 }
+
 
 header nav a{
     margin: 4%;
@@ -131,6 +194,14 @@ header h1{
 
 button{
     margin-top:2%
+}
+
+.facts-right{
+	display:none;
+}
+
+.facts .facts-left{
+	width: 85%;
 }
 
 }
@@ -169,5 +240,18 @@ button{
     margin-top:8%;
     margin-bottom: 8%;
 }
+
+.service-content{
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+.box{
+	width:80%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
 
 }
