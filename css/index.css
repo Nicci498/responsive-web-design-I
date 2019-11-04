@@ -1,3 +1,104 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+*{
+	margin:0;
+	padding:0;
+	max-width:100%;
+}
+
+/* Nav */
+
+header nav{
+	display:flex;
+	justify-content:space-between;
+}
+
+header nav a{
+	text-decoration: none;
+	margin:0 40px;
+	color:rgba(194, 193, 193, 0.822);
+	font-weight:bold;
+}
+
+/* Main */
+
+header h1{
+	font-size:80px;
+	text-align:center;
+}
+
+.main-heading{
+	display:flex;
+	justify-content:center;
+	margin: 2%;
+}
+
+.left-header{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+
+button{
+	background: white;
+	border:1px solid black;
+	padding:3%;
+	width:50%;
+	margin-left:25%;
+	
+}
+
+hr{
+	width:97%;
+	margin:2%;
+}
+
+/* In half */
+.in-half{
+	display:flex;
+	justify-content: space-around;
+}
+ 
+.in-half .first-half, .in-half .second-half{
+	width: 45%;
+	margin:2%;
+}
+/* In thirds */
+
+.in-thirds{
+	display:flex;
+	justify-content:space-around;
+}
+
+.in-thirds .left-third, .in-thirds .middle-third, .in-thirds .right-third{
+	width: 31%;
+	margin:2%;
+}
+
+/* Center pic */
+.middle-pic-div{
+	display:flex;
+	justify-content:center;
+}
+
+/* Contact*/
+.contact{
+	margin-left: 1%;
+}
+
+.contact h2{
+	margin-top: 1%;
+	font-size:20px;
+}
+
+.contact address{
+	line-height: 2;
+}
+
+/* Copyright*/
+footer{
+	display:flex;
+	justify-content:center;
+	margin:5%;
+}
 
