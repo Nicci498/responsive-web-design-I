@@ -139,17 +139,17 @@ button{
 
 header nav{
     flex-direction: column;
-    display:flex;
-    
+    display:flex;    
 }
 
+
 header nav a{
-flex-direction:column;
-border-bottom: 1px solid black;
-color:darkgray;
-text-align: center;
-padding: 2%;
-font-size: 1.5rem;
+    flex-direction:column;
+    border-bottom: 1px solid black;
+    color:darkgray;
+    text-align: center;
+    padding: 2%;
+    font-size: 1.5rem;
 }
 
 .in-half, .in-thirds{
