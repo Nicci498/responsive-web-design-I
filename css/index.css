@@ -1,3 +1,257 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+*{
+	margin:0;
+	padding:0;
+	max-width:100%;
+}
 
+/* Nav */
+
+header .nav{
+	display:flex;
+	justify-content:space-between;
+}
+
+header nav a{
+	text-decoration: none;
+	margin:0 40px;
+	color:rgba(194, 193, 193, 0.822);
+	font-weight:bold;
+}
+
+/* Main */
+
+header h1{
+	font-size:450%;
+	text-align:center;
+}
+
+.main-heading{
+	display:flex;
+	justify-content:center;
+	margin: 2%;
+}
+
+.left-header{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+
+button{
+	background: white;
+	border:1px solid black;
+	padding:3%;
+	width:50%;
+	margin-left:25%;
+	
+}
+
+hr{
+	width:97%;
+	margin:2%;
+}
+
+/* In half */
+.in-half{
+	display:flex;
+	justify-content: space-around;
+}
+ 
+.in-half .first-half, .in-half .second-half{
+	width: 45%;
+	margin:2%;
+}
+/* In thirds */
+
+.in-thirds{
+	display:flex;
+	justify-content:space-around;
+}
+
+.in-thirds .left-third, .in-thirds .middle-third, .in-thirds .right-third{
+	width: 31%;
+	margin:2%;
+}
+
+/* Center pic */
+.middle-pic-div{
+	display:flex;
+	justify-content:center;
+}
+
+/* Contact*/
+.contact{
+	margin-left: 1%;
+}
+
+.contact h2{
+	margin-top: 1%;
+	font-size:20px;
+}
+
+.contact address{
+    line-height: 2;
+}
+
+/* Copyright*/
+footer{
+	display:flex;
+	justify-content:center;
+	margin:5%;
+}
+
+
+
+.top-image{
+	display:flex;
+	justify-content:center;
+	margin:2%;
+}
+
+.svc{
+	display:flex;
+	flex-direction:column;
+	align-content: flex-start;
+	margin:2%;
+}
+
+.svc h1{
+	font-size:30px;
+}
+/* Boxes*/
+.service-content{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.box{
+	width: 43%;
+	background-color: rgb(233, 231, 231);
+	margin:2%;
+	border: 1px solid black;
+	
+}
+
+.box p, .box h2, .box button{
+	margin:4%;
+}
+
+.button{
+	border-radius: 10%;
+	width: 25%;
+	border: 1px solid black;
+	padding: 1%;
+}
+/* Cool stuff*/
+.facts{
+	display:flex;
+	justify-content:space-around;
+}
+
+.facts .facts-left{
+	width: 45%;
+	margin:2%
+}
+.facts .facts-left ul{
+	list-style-type: square;
+	line-height:2;
+	font-weight: bold;
+}
+
+
+
+@media (max-width:800px){
+ 
+.logo{
+    width:40%;
+    margin:2% 30%;
+}
+header .nav{
+flex-direction:column-reverse;
+align-content: center;
+justify-content: center;
+margin:1%;
+}
+
+
+header nav a{
+    margin: 4%;
+}
+
+.right-header{
+    display: none;
+}
+
+
+header h1{
+    font-size:350%;
+    margin: 1%;
+}
+
+button{
+    margin-top:2%
+}
+
+.facts-right{
+	display:none;
+}
+
+.facts .facts-left{
+	width: 85%;
+}
+
+}
+
+@media (max-width: 500px){
+
+header nav{
+    flex-direction: column;
+    display:flex;    
+}
+
+
+header nav a{
+    flex-direction:column;
+    border-bottom: 1px solid black;
+    color:darkgray;
+    text-align: center;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+.in-half, .in-thirds{
+flex-direction: column;
+}
+
+.in-half .first-half, .in-half .second-half, .in-thirds .left-third, .in-thirds .middle-third, .in-thirds .right-third{
+    width: 100%;
+}
+
+.first-half, .second-half, .left-third, .middle-third, .right-third{
+display: flex;
+flex-direction: column;
+}
+
+button{
+    margin-top:8%;
+    margin-bottom: 8%;
+}
+
+.service-content{
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+.box{
+	width:80%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
+
+}
